@@ -10,6 +10,8 @@
         <entry key="..\:/Users/jerem/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_new_list.xml" value="0.1" />
         <entry key="..\:/Users/jerem/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_search.xml" value="0.1" />
         <entry key="..\:/Users/jerem/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_settings.xml" value="0.1" />
+        <entry key="..\:/Users/jerem/AndroidStudioProjects/NewsApp/app/src/main/res/layout/item_news_image.xml" value="0.5" />
+        <entry key="..\:/Users/jerem/AndroidStudioProjects/NewsApp/app/src/main/res/layout/item_news_text.xml" value="0.33" />
         <entry key="..\:/Users/jerem/AndroidStudioProjects/NewsApp/app/src/main/res/menu/botton_nav_menu.xml" value="0.1" />
       </map>
     </option>

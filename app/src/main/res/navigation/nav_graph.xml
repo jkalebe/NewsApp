@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/newsListFragment"
-        android:name="jota.kalebe.newsapp.NewListFragment"
+        android:name="jota.kalebe.newsapp.ui.NewListFragment"
         android:label="fragment_new_list"
         tools:layout="@layout/fragment_new_list" />
 
     <fragment
         android:id="@+id/newsListFav"
-        android:name="jota.kalebe.newsapp.NewFavFragment"
+        android:name="jota.kalebe.newsapp.ui.NewFavFragment"
         android:label="fragment_new_fav"
         tools:layout="@layout/fragment_new_fav" />
 
     <fragment
         android:id="@+id/settings"
-        android:name="jota.kalebe.newsapp.SettingsFragment"
+        android:name="jota.kalebe.newsapp.ui.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
 
     <fragment
         android:id="@+id/newsListSearch"
-        android:name="jota.kalebe.newsapp.SearchFragment"
+        android:name="jota.kalebe.newsapp.ui.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
 

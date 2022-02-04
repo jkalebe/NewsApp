@@ -1,4 +1,4 @@
-package jota.kalebe.newsapp;
+package jota.kalebe.newsapp.ui;
 
 import android.os.Bundle;
 
@@ -8,10 +8,12 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import jota.kalebe.newsapp.R;
+
 public class MainActivity extends AppCompatActivity {
 
     NavHostFragment navHostFragment;
-    BottomNavigationView bottonNavigationView;
+    BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupNavigation() {
         navHostFragment = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment);
-        bottonNavigationView = findViewById(R.id.bottomNavigationView);
+        bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
-        NavigationUI.setupWithNavController(bottonNavigationView, navHostFragment.getNavController());
+        NavigationUI.setupWithNavController(bottomNavigationView, navHostFragment.getNavController());
     }
 }
