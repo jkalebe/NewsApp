@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="textFillColor">@color/light_text_color</item>
+        <item name="backgroundColor">@color/light_bg_color</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/teal_200</item>
+        <item name="colorPrimaryDark">@color/dark_primary_dark_color</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="textFillColor">@color/dark_text_color</item>
+        <item name="backgroundColor">@color/dark_bg_color</item>
+        <item name="android:textColorSecondary">@color/dark_icon_tint_color</item>
+    </style>
+
+</resources>
