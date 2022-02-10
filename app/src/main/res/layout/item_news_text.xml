@@ -16,23 +16,34 @@
         android:background="?attr/backgroundColor">
 
         <TextView
-            android:textColor="?attr/textFillColor"
+
             android:id="@+id/item_news_text_title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginTop="32dp"
-            android:text="TextView"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@{NewsItemText.title}"
+            android:textColor="?attr/textFillColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:textColor="?attr/textFillColor"
+            android:lineSpacingExtra="4sp"
+            android:maxLines="5"
             android:id="@+id/item_news_text_content"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginTop="16dp"
-            android:text="TextView"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@{NewsItemText.content}"
+            android:textColor="?attr/textFillColor"
             app:layout_constraintBottom_toTopOf="@+id/item_news_text_userimg"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -41,6 +52,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
+            glide_circular="@{NewsItemText.userImage}"
             android:id="@+id/item_news_text_userimg"
             android:layout_width="36dp"
             android:layout_height="36dp"
@@ -52,13 +64,13 @@
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
+            android:text="@{NewsItemText.username}"
             android:textColor="?attr/textFillColor"
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:text="TextView"
             app:layout_constraintBottom_toBottomOf="@+id/item_news_text_userimg"
             app:layout_constraintStart_toEndOf="@+id/item_news_text_userimg"
             app:layout_constraintTop_toTopOf="@+id/item_news_text_userimg" />

@@ -6,6 +6,7 @@
         <item name="colorAccent">@color/teal_200</item>
         <item name="textFillColor">@color/light_text_color</item>
         <item name="backgroundColor">@color/light_bg_color</item>
+        <item name="text_hint_color">@color/dark_icon_tint_color</item>
     </style>
 
     <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -15,6 +16,13 @@
         <item name="textFillColor">@color/dark_text_color</item>
         <item name="backgroundColor">@color/dark_bg_color</item>
         <item name="android:textColorSecondary">@color/dark_icon_tint_color</item>
+        <item name="text_hint_color">@color/dark_icon_tint_color</item>
     </style>
+
+    <declare-styleable name="attr_declar">
+        <attr name="background_color" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_hint_color" format="color"/>
+    </declare-styleable>
 
 </resources>

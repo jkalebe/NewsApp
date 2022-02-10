@@ -28,5 +28,9 @@
         android:name="jota.kalebe.newsapp.ui.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/newDetailFragment"
+        android:name="jota.kalebe.newsapp.ui.NewDetailFragment"
+        android:label="NewDetailFragment" />
 
 </navigation>
